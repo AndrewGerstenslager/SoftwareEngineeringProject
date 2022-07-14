@@ -3,7 +3,7 @@ import json
 from Course import Course
 
 # INSERT YOUR CANVAS API TOKEN HERE
-AUTH_TOKEN = '1109~CaCWLep5armHkvr8XEboNc7UeByCurf77kOLPelxLSugYLQ9S3hTTrNlnFf0GNP5'
+AUTH_TOKEN = 'YOUR_API_TOKEN'
 
 test_url = 'https://canvas.instructure.com/api/v1/courses.json/?per_page=100'
 headers = {'Authorization' : 'Bearer ' + AUTH_TOKEN}
