@@ -26,3 +26,12 @@ for i in range(len(outputtxt)):
 # print all course names
 for course in courses:
     course.show_course()
+
+# initialize assignment objects
+assignmnents = []
+
+# put in some way to collect all assignments from courses
+
+# print all course names
+for assignment in assignments:
+    assignment.show_assignment()
